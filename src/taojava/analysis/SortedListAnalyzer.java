@@ -54,14 +54,14 @@ public class SortedListAnalyzer
     // Grab the length (which may not be n)
     int len = sl.length();
 
-    // Index
+    /*// Index
     indices.start();
     for (int i = 0; i < n; i++)
       {
         sl.get(random.nextInt(len));
       } // for
     indices.stop();
-
+*/
     // Iterate
     iterate.start();
     for (Integer i : sl)
